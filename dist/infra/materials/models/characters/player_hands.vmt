@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/characters/player_hands"
+	"$bumpmap" "models/characters/player_hands_normal"
+
+	"$color2" "[0.82 0.78 0.76]"
+
+	"$phong" "0"
+	"$phongboost" "0"
+	"$rimlight" "0"
+	"$rimlightboost" "0"
+}

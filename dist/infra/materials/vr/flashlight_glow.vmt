@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vr/flashlight_glow"
+	"$additive" "1"
+	"$ignorez" "1"
+	"$nocull" "1"
+}

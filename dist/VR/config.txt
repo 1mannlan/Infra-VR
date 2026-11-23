@@ -1,0 +1,47 @@
+TurnSpeed=0.15
+SnapTurning=false
+SnapTurnAngle=45
+LeftHanded=false # Experimental in v0.1.0
+VRScale=43.2 # Real world units to source units scale
+IPDScale=1 # Scale of interpupillary distance
+6DOF=true
+AimMode=2 # 0 = None, 1 = Crosshair, 2 = Context/Menu cursor
+AntiAliasing=4 # 0, 2, 4, 8 (applies after restart)
+RenderScale=1 # VR eye resolution multiplier (0.5..2.0, default 1.0)
+RenderWindow=0 # 0 = no desktop mirror (faster), 1 = mirror left eye to desktop window
+ShowHands=true # VR hands gripping camera and flashlight
+UseTipDistance=9 # Virtual fingertip distance in front of the controller for selecting switches (cm)
+UseTouchRadius=15 # Max distance fingertip -> object for close-range selection (cm)
+MenuSeatHeight=23.5 # Main menu eye height above the laptop camera (cm)
+MenuSeatForward=0 # Main menu seat distance moved towards the laptop (cm)
+IntroSeatHeight=5 # Chapter 1 intro chair eye height offset (cm)
+CarSeatHeight=15 # Chapter 2 intro car eye height offset (cm)
+MultiThreadedRendering=true # Use mat_queue_mode 2 multi-threaded rendering for lower CPU frametimes
+KeepActiveInBackground=true # No stutter when another window has focus
+VRAMOffload=true # Offload textures from 32-bit RAM to GPU VRAM
+DesktopWindowWidth=1280 # Desktop mirror window size (640..3840 x 480..2160)
+DesktopWindowHeight=720
+CalibrationMode=false # Hold both stick clicks 0.8s in-game to toggle
+# Controller-type default hand offsets are loaded automatically from VR\controller_profiles.txt.
+# Custom per-user calibration saved via CalibrationMode (L3+R3 hold 0.8s) is written below.
+DebugFingerLog=false # Write VR\finger_debug.txt skeletal diagnostics
+EnableProfilerHotkey=false # Enable F12 10s frame profiler capture
+SpatialAudioMode=steam_audio # steam_audio (3D HRTF + height + occlusion), dsoal (OpenAL Soft 5.1 HRTF, restart required), native (Source headphones)
+SpatialAudioOcclusion=true # Raycast wall occlusion for steam_audio mode
+SpatialAudioRoomSend=1.0 # Source room reverb send multiplier (0.0..1.5) in steam_audio mode
+BatteryInventoryMode=belt # belt, wrist, both, off
+BeltHolsterEnabled=true # Holster/draw flashlight & camera on belt
+PlayerHeight=0 # Standing body height (e.g. 175cm, 69in, 5'9", 1.75m) or hold controller at belt + Trigger in Calibration Mode (L3+R3 0.8s)
+PlayerInseam=0 # Optional inner leg length / inseam (e.g. 78cm or 30.7in)
+MeasurePlayerHeight=false # Set true while standing upright to measure your height from SteamVR
+BeltHeightOffsetCm=auto # Belt drop below eyes: 'auto' (default 82cm / 32.3in; formula: 0.936*H - I - 1.5cm, 0.480*H, or I) or explicit/Trigger-calibrated (+1.5cm)
+ShowBatteryCounts=true # Show reserve battery counts at belt/wrist slots
+AllowQuickReload=false # Allow touchpad swipe-down / button-hold quick reload
+ShowFlashlightBatteryRing=true # LED battery ring on flashlight tail cap
+CameraFlashBlindingStrength=1.0 # Camera flash self-blinding glare multiplier (0.0..2.0)
+ViewmodelPosCustomOffsetX=0
+ViewmodelPosCustomOffsetY=0
+ViewmodelPosCustomOffsetZ=0
+ViewmodelAngCustomOffsetX=0
+ViewmodelAngCustomOffsetY=0
+ViewmodelAngCustomOffsetZ=0

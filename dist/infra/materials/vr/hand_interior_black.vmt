@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "vgui/black"
+	"$color2" "[0 0 0]"
+	"$phong" "0"
+	"$phongboost" "0"
+	"$rimlight" "0"
+	"$rimlightboost" "0"
+	"$nofog" "1"
+}

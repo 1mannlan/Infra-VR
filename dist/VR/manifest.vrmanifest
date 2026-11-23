@@ -1,0 +1,17 @@
+{
+	"source" : "builtin",
+	"applications": [{
+		"app_key": "steam.app.251110",
+		
+		"launch_type": "url",
+		"url": "steam://launch/251110/VR",
+		"action_manifest_path" : "SteamVRActionManifest/action_manifest.json",
+
+		"strings": {
+			"en_us": {
+				"name": "INFRA VR",
+				"description": "INFRA Native OpenVR Mod (6DOF + DXVK Vulkan VRAM Offloading)"
+			}
+		}
+	}]
+}

@@ -1,0 +1,81 @@
+MIT License (INFRA VR Original Mod Code & Scripts)
+
+Copyright (c) 2026 1mannlan (https://github.com/1mannlan/Infra-VR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+SOURCE 1 SDK NON-COMMERCIAL DISTRIBUTION NOTICE
+================================================================================
+
+This repository includes Valve Source SDK 2013 headers and files under
+`InfraVR/sdk/` (and compiled `d3d9.dll` binaries incorporate code derived
+therefrom). Pursuant to the Source 1 SDK License (`InfraVR/sdk/LICENSE.txt` and
+`InfraVR/sdk/thirdpartylegalnotices.txt`), Source 1 SDK portions and derivative
+compiled Source Engine mod distributions may only be copied, modified, and
+distributed FREE OF CHARGE (NON-COMMERCIAL USE ONLY). Any commercial use
+requires a separate license from Valve Corporation (sourceengine@valvesoftware.com).
+
+================================================================================
+THIRD-PARTY COMPONENT LICENSES & ATTRIBUTIONS
+================================================================================
+
+This repository incorporates and adapts code from third-party projects and SDKs,
+each governed by its respective license in its subdirectory and in
+THIRD_PARTY_LICENSES.md:
+
+1. Portal 2 VR (`portal2vr`) by Gistix & Left 4 Dead 2 VR (`l4d2vr`) by sd805
+   - Original Source Engine OpenVR hook architecture, view/projection overrides,
+     and DXVK VR bridge integration.
+
+2. DXVK (`dxvk/`)
+   - Copyright (c) 2017 Philip Rebohle
+   - Copyright (c) 2019 Joshua Ashton
+   - VR / D3D9 shared-surface extensions by TheIronWolfModding, DrBeef, fholger,
+     sd805, and Gistix
+   - License: zlib/libpng License (see `dxvk/LICENSE` and `THIRD_PARTY_LICENSES.md`)
+
+3. Valve Source SDK 2013 (`InfraVR/sdk/`)
+   - Copyright (c) Valve Corporation
+   - License: Source 1 SDK License (NON-COMMERCIAL / FREE ONLY; see
+     `InfraVR/sdk/LICENSE.txt`, `InfraVR/sdk/thirdpartylegalnotices.txt`, and
+     `THIRD_PARTY_LICENSES.md`)
+
+4. Valve OpenVR SDK (`thirdparty/openvr/`)
+   - Copyright (c) 2015, Valve Corporation
+   - License: BSD 3-Clause License (see `thirdparty/openvr/LICENSE` and
+     `THIRD_PARTY_LICENSES.md`)
+
+5. MinHook - The Minimalistic API Hooking Library for x64/x86 (`thirdparty/minhook/`)
+   - Copyright (C) 2009-2017 Tsuda Kageyu
+   - Includes Hacker Disassembler Engine 32/64 C (HDE) by Vyacheslav Patkov
+   - License: BSD 2-Clause License (see `thirdparty/minhook/LICENSE.txt` and
+     `THIRD_PARTY_LICENSES.md`)
+
+6. Adobe Source Code Pro Font Data (`dxvk/src/dxvk/hud/dxvk_hud_font.cpp`)
+   - Copyright 2010-2022 Adobe (Source Code Pro)
+   - License: SIL Open Font License Version 1.1 (see `THIRD_PARTY_LICENSES.md`)
+
+7. Khronos Vulkan & SPIR-V Headers (`dxvk/include/vulkan/`, `dxvk/include/spirv/`)
+   - Copyright (c) 2014-2021 The Khronos Group Inc.
+   - License: Apache License 2.0 / Khronos MIT-style Materials License (see
+     `THIRD_PARTY_LICENSES.md`)
+
+8. SHA-1 in C (`dxvk/src/util/sha1/`)
+   - By Steve Reid (100% Public Domain)

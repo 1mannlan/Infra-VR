@@ -1,0 +1,45 @@
+# Visual Studio build outputs & intermediates
+.vs/
+/[Dd]ebug/
+/[Rr]elease/
+/x64/
+/Win32/
+/InfraVR/[Dd]ebug/
+/InfraVR/[Rr]elease/
+/InfraVR/Win32/
+/dxvk/build/
+!thirdparty/openvr/**
+
+# User-specific Visual Studio files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled intermediates & debug symbols (keep dist/bin/*.dll and *.lib tracked!)
+*.obj
+*.pdb
+*.iobj
+*.ipdb
+*.ilk
+*.exp
+*.tlog
+*.log
+*.idb
+*.lastbuildstate
+*.recipe
+
+# OS / Editor / Local Installer State / Diagnostic Logs / Release Archives
+.DS_Store
+Thumbs.db
+*~
+dist/.infra_path.txt
+VR/finger_debug.txt
+VR/profile_*.txt
+dist/VR/finger_debug.txt
+dist/VR/profile_*.txt
+_release_stage/
+*.zip

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "vgui/black"
+	"$no_draw" "1"
+}
